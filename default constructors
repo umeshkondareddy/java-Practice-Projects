@@ -1,0 +1,13 @@
+public class constructors 
+{
+	constructors() 
+	{ 
+		System.out.println("Default constructor"); 
+	}
+
+	
+	public static void main(String[] args)
+	{
+		constructors c = new constructors();
+	}
+}
