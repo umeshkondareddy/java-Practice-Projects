@@ -1,0 +1,15 @@
+//Private access modifier
+class Data 
+{
+    String name;
+}
+
+public class privatemodifier 
+{
+    public static void main(String[] main)
+    {
+        Data d = new Data();
+        d.name = "umesh";
+    }
+}
+
