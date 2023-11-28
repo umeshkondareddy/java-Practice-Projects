@@ -13,3 +13,25 @@ public class privatemodifier
     }
 }
 
+//public access modifier
+public class umesh
+{
+	public int count;
+    public void display() 
+    {
+        System.out.println("my self umesh.");
+        System.out.println("Im doing " + count + " projects.");
+    }
+}
+
+public class main 
+{
+    public static void main( String[] args ) 
+    {
+        umesh u = new umesh();
+
+        u.count =2;
+        u.display();
+    }
+}
+
