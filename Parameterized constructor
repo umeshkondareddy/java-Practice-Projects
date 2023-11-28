@@ -1,0 +1,16 @@
+class constructorspp {
+	String name;
+	int id;
+	constructorspp(String name, int id)
+	{
+		this.name = name;
+		this.id = id;
+	}
+
+
+	public static void main(String[] args)
+	{
+		constructorspp pc = new constructorspp("Umesh", 20);
+		System.out.println("constructorName :" + pc.name + " and Id :" + pc.id);
+	}
+}
